@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02BFA7C65CB23489A53D60AD /* Pods_Donum_VictusTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 28ACBCA75968AD3F8E49AADD /* Pods_Donum_VictusTests.framework */; };
+		492621671E2AD9B0004BCD07 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492621661E2AD9B0004BCD07 /* LoginScreen.swift */; };
+		492621691E2ADA58004BCD07 /* CreateAccountScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492621681E2ADA58004BCD07 /* CreateAccountScreen.swift */; };
+		4926216B1E2ADDB7004BCD07 /* UniversalParameths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926216A1E2ADDB7004BCD07 /* UniversalParameths.swift */; };
+		492688231FFC8FA6001ADBA7 /* DonationLocSetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 492688221FFC8FA6001ADBA7 /* DonationLocSetView.swift */; };
+		493787CE20D32BE500E86FA1 /* Shelter.png in Resources */ = {isa = PBXBuildFile; fileRef = 493787CD20D32BE400E86FA1 /* Shelter.png */; };
+		493AC1C31E2AEF1E00718EF6 /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AC1C21E2AEF1E00718EF6 /* MainScreen.swift */; };
+		493AC1C61E2B0AB500718EF6 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AC1C51E2B0AB500718EF6 /* SettingsScreen.swift */; };
+		493AC1C81E2B10AC00718EF6 /* TransportScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AC1C71E2B10AC00718EF6 /* TransportScreen.swift */; };
+		493AC1CA1E2B10BB00718EF6 /* DonateScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 493AC1C91E2B10BB00718EF6 /* DonateScreen.swift */; };
+		495890B220426322003415EE /* ShelterRegisScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495890B120426322003415EE /* ShelterRegisScreen.swift */; };
+		495890B420426336003415EE /* DonPickViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495890B320426336003415EE /* DonPickViewer.swift */; };
+		495A9B511F25A5B60019A1C5 /* lightcheckfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 495A9B4F1F25A5B60019A1C5 /* lightcheckfilled.png */; };
+		495A9B521F25A5B60019A1C5 /* lighcheckunfilled.png in Resources */ = {isa = PBXBuildFile; fileRef = 495A9B501F25A5B60019A1C5 /* lighcheckunfilled.png */; };
+		495A9B541F25A6080019A1C5 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 495A9B531F25A6080019A1C5 /* Launch Screen.storyboard */; };
+		495A9B561F25A8040019A1C5 /* LaunchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495A9B551F25A8040019A1C5 /* LaunchScreen.swift */; };
+		4986B0491E2AD4360068380B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4986B0481E2AD4360068380B /* GoogleService-Info.plist */; };
+		49AA3DF71E2B3A9D008AC387 /* DonationInformationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AA3DF61E2B3A9D008AC387 /* DonationInformationScreen.swift */; };
+		49AA3DFB1E2B46B4008AC387 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 49AA3DFA1E2B46B4008AC387 /* logo.png */; };
+		49CE29211E2AD02A00CB3A69 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE29201E2AD02A00CB3A69 /* AppDelegate.swift */; };
+		49CE29261E2AD02A00CB3A69 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49CE29241E2AD02A00CB3A69 /* Main.storyboard */; };
+		49CE29281E2AD02A00CB3A69 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49CE29271E2AD02A00CB3A69 /* Assets.xcassets */; };
+		49CE29361E2AD02A00CB3A69 /* Donum_VictusTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE29351E2AD02A00CB3A69 /* Donum_VictusTests.swift */; };
+		49CE29411E2AD02A00CB3A69 /* Donum_VictusUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE29401E2AD02A00CB3A69 /* Donum_VictusUITests.swift */; };
+		49F683DA20BFABBD0055C2F9 /* Shelter.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F683D920BFABBD0055C2F9 /* Shelter.storyboard */; };
+		49F683DC20BFB6EB0055C2F9 /* ShelterRegView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F683DB20BFB6EB0055C2F9 /* ShelterRegView.swift */; };
+		B9148567A68AECE8EEB69550 /* Pods_Donum_Victus.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D0C518D41F0E54D0B54C2A0 /* Pods_Donum_Victus.framework */; };
+		D857FCE20FF9A40C8908559C /* Pods_Donum_VictusUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5D63808C24B9F7A63F42EC0 /* Pods_Donum_VictusUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49CE29321E2AD02A00CB3A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CE29151E2AD02A00CB3A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CE291C1E2AD02A00CB3A69;
+			remoteInfo = "Donum Victus";
+		};
+		49CE293D1E2AD02A00CB3A69 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49CE29151E2AD02A00CB3A69 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49CE291C1E2AD02A00CB3A69;
+			remoteInfo = "Donum Victus";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		124A0FC6765CE1732985F3C6 /* Pods-Donum VictusTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum VictusTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Donum VictusTests/Pods-Donum VictusTests.release.xcconfig"; sourceTree = "<group>"; };
+		24FD49F7F9E1D05E9A584330 /* Pods-Donum Victus.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum Victus.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus.debug.xcconfig"; sourceTree = "<group>"; };
+		28ACBCA75968AD3F8E49AADD /* Pods_Donum_VictusTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donum_VictusTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C8D977799A81E164DC24CB0 /* Pods-Donum VictusUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum VictusUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Donum VictusUITests/Pods-Donum VictusUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3ADB76DFC44EED750AFBFCCF /* Pods-Donum VictusUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum VictusUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Donum VictusUITests/Pods-Donum VictusUITests.release.xcconfig"; sourceTree = "<group>"; };
+		412693BD70031F40E6E34160 /* Pods-Donum Victus.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum Victus.release.xcconfig"; path = "Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus.release.xcconfig"; sourceTree = "<group>"; };
+		492621661E2AD9B0004BCD07 /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		492621681E2ADA58004BCD07 /* CreateAccountScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountScreen.swift; sourceTree = "<group>"; };
+		4926216A1E2ADDB7004BCD07 /* UniversalParameths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UniversalParameths.swift; sourceTree = "<group>"; };
+		492688221FFC8FA6001ADBA7 /* DonationLocSetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationLocSetView.swift; sourceTree = "<group>"; };
+		493787CD20D32BE400E86FA1 /* Shelter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shelter.png; sourceTree = "<group>"; };
+		493AC1C21E2AEF1E00718EF6 /* MainScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreen.swift; sourceTree = "<group>"; };
+		493AC1C41E2AFBB600718EF6 /* Donum Victus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Donum Victus.entitlements"; sourceTree = "<group>"; };
+		493AC1C51E2B0AB500718EF6 /* SettingsScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		493AC1C71E2B10AC00718EF6 /* TransportScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransportScreen.swift; sourceTree = "<group>"; };
+		493AC1C91E2B10BB00718EF6 /* DonateScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonateScreen.swift; sourceTree = "<group>"; };
+		495890B120426322003415EE /* ShelterRegisScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterRegisScreen.swift; sourceTree = "<group>"; };
+		495890B320426336003415EE /* DonPickViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonPickViewer.swift; sourceTree = "<group>"; };
+		495A9B4F1F25A5B60019A1C5 /* lightcheckfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightcheckfilled.png; sourceTree = "<group>"; };
+		495A9B501F25A5B60019A1C5 /* lighcheckunfilled.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lighcheckunfilled.png; sourceTree = "<group>"; };
+		495A9B531F25A6080019A1C5 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		495A9B551F25A8040019A1C5 /* LaunchScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchScreen.swift; sourceTree = "<group>"; };
+		4986B0481E2AD4360068380B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		49AA3DF61E2B3A9D008AC387 /* DonationInformationScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DonationInformationScreen.swift; sourceTree = "<group>"; };
+		49AA3DFA1E2B46B4008AC387 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		49CE291D1E2AD02A00CB3A69 /* Donum Victus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Donum Victus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE29201E2AD02A00CB3A69 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49CE29251E2AD02A00CB3A69 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49CE29271E2AD02A00CB3A69 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49CE292C1E2AD02A00CB3A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CE29311E2AD02A00CB3A69 /* Donum VictusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Donum VictusTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE29351E2AD02A00CB3A69 /* Donum_VictusTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donum_VictusTests.swift; sourceTree = "<group>"; };
+		49CE29371E2AD02A00CB3A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49CE293C1E2AD02A00CB3A69 /* Donum VictusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Donum VictusUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49CE29401E2AD02A00CB3A69 /* Donum_VictusUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Donum_VictusUITests.swift; sourceTree = "<group>"; };
+		49CE29421E2AD02A00CB3A69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49F683D920BFABBD0055C2F9 /* Shelter.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Shelter.storyboard; sourceTree = "<group>"; };
+		49F683DB20BFB6EB0055C2F9 /* ShelterRegView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShelterRegView.swift; sourceTree = "<group>"; };
+		6D0C518D41F0E54D0B54C2A0 /* Pods_Donum_Victus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donum_Victus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F48D0E56C9989E0BD3A68B /* Pods-Donum VictusTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Donum VictusTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Donum VictusTests/Pods-Donum VictusTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D5D63808C24B9F7A63F42EC0 /* Pods_Donum_VictusUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Donum_VictusUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49CE291A1E2AD02A00CB3A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9148567A68AECE8EEB69550 /* Pods_Donum_Victus.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE292E1E2AD02A00CB3A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02BFA7C65CB23489A53D60AD /* Pods_Donum_VictusTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE29391E2AD02A00CB3A69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D857FCE20FF9A40C8908559C /* Pods_Donum_VictusUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01FFC48A12C4EA231D9DA243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6D0C518D41F0E54D0B54C2A0 /* Pods_Donum_Victus.framework */,
+				28ACBCA75968AD3F8E49AADD /* Pods_Donum_VictusTests.framework */,
+				D5D63808C24B9F7A63F42EC0 /* Pods_Donum_VictusUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49CE29141E2AD02A00CB3A69 = {
+			isa = PBXGroup;
+			children = (
+				49CE291F1E2AD02A00CB3A69 /* Donum Victus */,
+				49CE29341E2AD02A00CB3A69 /* Donum VictusTests */,
+				49CE293F1E2AD02A00CB3A69 /* Donum VictusUITests */,
+				49CE291E1E2AD02A00CB3A69 /* Products */,
+				6F9173BB7B24421C4D7D94B1 /* Pods */,
+				01FFC48A12C4EA231D9DA243 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		49CE291E1E2AD02A00CB3A69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49CE291D1E2AD02A00CB3A69 /* Donum Victus.app */,
+				49CE29311E2AD02A00CB3A69 /* Donum VictusTests.xctest */,
+				49CE293C1E2AD02A00CB3A69 /* Donum VictusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49CE291F1E2AD02A00CB3A69 /* Donum Victus */ = {
+			isa = PBXGroup;
+			children = (
+				493AC1C41E2AFBB600718EF6 /* Donum Victus.entitlements */,
+				49CE29201E2AD02A00CB3A69 /* AppDelegate.swift */,
+				49CE29241E2AD02A00CB3A69 /* Main.storyboard */,
+				49F683D920BFABBD0055C2F9 /* Shelter.storyboard */,
+				49CE29271E2AD02A00CB3A69 /* Assets.xcassets */,
+				49CE292C1E2AD02A00CB3A69 /* Info.plist */,
+				4986B0481E2AD4360068380B /* GoogleService-Info.plist */,
+				49AA3DFA1E2B46B4008AC387 /* logo.png */,
+				492621661E2AD9B0004BCD07 /* LoginScreen.swift */,
+				492621681E2ADA58004BCD07 /* CreateAccountScreen.swift */,
+				4926216A1E2ADDB7004BCD07 /* UniversalParameths.swift */,
+				493AC1C21E2AEF1E00718EF6 /* MainScreen.swift */,
+				493787CD20D32BE400E86FA1 /* Shelter.png */,
+				495A9B4F1F25A5B60019A1C5 /* lightcheckfilled.png */,
+				495A9B501F25A5B60019A1C5 /* lighcheckunfilled.png */,
+				493AC1C51E2B0AB500718EF6 /* SettingsScreen.swift */,
+				493AC1C71E2B10AC00718EF6 /* TransportScreen.swift */,
+				49AA3DF61E2B3A9D008AC387 /* DonationInformationScreen.swift */,
+				495A9B531F25A6080019A1C5 /* Launch Screen.storyboard */,
+				495A9B551F25A8040019A1C5 /* LaunchScreen.swift */,
+				493AC1C91E2B10BB00718EF6 /* DonateScreen.swift */,
+				492688221FFC8FA6001ADBA7 /* DonationLocSetView.swift */,
+				495890B120426322003415EE /* ShelterRegisScreen.swift */,
+				495890B320426336003415EE /* DonPickViewer.swift */,
+				49F683DB20BFB6EB0055C2F9 /* ShelterRegView.swift */,
+			);
+			path = "Donum Victus";
+			sourceTree = "<group>";
+		};
+		49CE29341E2AD02A00CB3A69 /* Donum VictusTests */ = {
+			isa = PBXGroup;
+			children = (
+				49CE29351E2AD02A00CB3A69 /* Donum_VictusTests.swift */,
+				49CE29371E2AD02A00CB3A69 /* Info.plist */,
+			);
+			path = "Donum VictusTests";
+			sourceTree = "<group>";
+		};
+		49CE293F1E2AD02A00CB3A69 /* Donum VictusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49CE29401E2AD02A00CB3A69 /* Donum_VictusUITests.swift */,
+				49CE29421E2AD02A00CB3A69 /* Info.plist */,
+			);
+			path = "Donum VictusUITests";
+			sourceTree = "<group>";
+		};
+		6F9173BB7B24421C4D7D94B1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				24FD49F7F9E1D05E9A584330 /* Pods-Donum Victus.debug.xcconfig */,
+				412693BD70031F40E6E34160 /* Pods-Donum Victus.release.xcconfig */,
+				80F48D0E56C9989E0BD3A68B /* Pods-Donum VictusTests.debug.xcconfig */,
+				124A0FC6765CE1732985F3C6 /* Pods-Donum VictusTests.release.xcconfig */,
+				2C8D977799A81E164DC24CB0 /* Pods-Donum VictusUITests.debug.xcconfig */,
+				3ADB76DFC44EED750AFBFCCF /* Pods-Donum VictusUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49CE291C1E2AD02A00CB3A69 /* Donum Victus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE29451E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum Victus" */;
+			buildPhases = (
+				9FD9A52506FFDA422BC90D14 /* [CP] Check Pods Manifest.lock */,
+				49CE29191E2AD02A00CB3A69 /* Sources */,
+				49CE291A1E2AD02A00CB3A69 /* Frameworks */,
+				49CE291B1E2AD02A00CB3A69 /* Resources */,
+				595A9C1D2952CC0E353EAF78 /* [CP] Embed Pods Frameworks */,
+				F0FFE03CFE70BAFF4A720CCA /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Donum Victus";
+			productName = "Donum Victus";
+			productReference = 49CE291D1E2AD02A00CB3A69 /* Donum Victus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49CE29301E2AD02A00CB3A69 /* Donum VictusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE29481E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum VictusTests" */;
+			buildPhases = (
+				97234C1EF71127FA7F085001 /* [CP] Check Pods Manifest.lock */,
+				49CE292D1E2AD02A00CB3A69 /* Sources */,
+				49CE292E1E2AD02A00CB3A69 /* Frameworks */,
+				49CE292F1E2AD02A00CB3A69 /* Resources */,
+				58BAA63DA0DA30187413CABB /* [CP] Embed Pods Frameworks */,
+				36318CD32003507CD4081FB7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CE29331E2AD02A00CB3A69 /* PBXTargetDependency */,
+			);
+			name = "Donum VictusTests";
+			productName = "Donum VictusTests";
+			productReference = 49CE29311E2AD02A00CB3A69 /* Donum VictusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49CE293B1E2AD02A00CB3A69 /* Donum VictusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49CE294B1E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum VictusUITests" */;
+			buildPhases = (
+				10506C52D5945A3E0FF14699 /* [CP] Check Pods Manifest.lock */,
+				49CE29381E2AD02A00CB3A69 /* Sources */,
+				49CE29391E2AD02A00CB3A69 /* Frameworks */,
+				49CE293A1E2AD02A00CB3A69 /* Resources */,
+				FCC65C41F6A45896F2FE48BD /* [CP] Embed Pods Frameworks */,
+				BA5403C33FCFE0B6AC877284 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49CE293E1E2AD02A00CB3A69 /* PBXTargetDependency */,
+			);
+			name = "Donum VictusUITests";
+			productName = "Donum VictusUITests";
+			productReference = 49CE293C1E2AD02A00CB3A69 /* Donum VictusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49CE29151E2AD02A00CB3A69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Donum Victus";
+				TargetAttributes = {
+					49CE291C1E2AD02A00CB3A69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					49CE29301E2AD02A00CB3A69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CE291C1E2AD02A00CB3A69;
+					};
+					49CE293B1E2AD02A00CB3A69 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CC9N3SP5VS;
+						LastSwiftMigration = 0910;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 49CE291C1E2AD02A00CB3A69;
+					};
+				};
+			};
+			buildConfigurationList = 49CE29181E2AD02A00CB3A69 /* Build configuration list for PBXProject "Donum Victus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49CE29141E2AD02A00CB3A69;
+			productRefGroup = 49CE291E1E2AD02A00CB3A69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49CE291C1E2AD02A00CB3A69 /* Donum Victus */,
+				49CE29301E2AD02A00CB3A69 /* Donum VictusTests */,
+				49CE293B1E2AD02A00CB3A69 /* Donum VictusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49CE291B1E2AD02A00CB3A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49F683DA20BFABBD0055C2F9 /* Shelter.storyboard in Resources */,
+				49AA3DFB1E2B46B4008AC387 /* logo.png in Resources */,
+				495A9B521F25A5B60019A1C5 /* lighcheckunfilled.png in Resources */,
+				4986B0491E2AD4360068380B /* GoogleService-Info.plist in Resources */,
+				495A9B511F25A5B60019A1C5 /* lightcheckfilled.png in Resources */,
+				493787CE20D32BE500E86FA1 /* Shelter.png in Resources */,
+				49CE29281E2AD02A00CB3A69 /* Assets.xcassets in Resources */,
+				49CE29261E2AD02A00CB3A69 /* Main.storyboard in Resources */,
+				495A9B541F25A6080019A1C5 /* Launch Screen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE292F1E2AD02A00CB3A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE293A1E2AD02A00CB3A69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		10506C52D5945A3E0FF14699 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Donum VictusUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36318CD32003507CD4081FB7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum VictusTests/Pods-Donum VictusTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58BAA63DA0DA30187413CABB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum VictusTests/Pods-Donum VictusTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		595A9C1D2952CC0E353EAF78 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97234C1EF71127FA7F085001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Donum VictusTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FD9A52506FFDA422BC90D14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Donum Victus-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5403C33FCFE0B6AC877284 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum VictusUITests/Pods-Donum VictusUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0FFE03CFE70BAFF4A720CCA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+				"${PODS_ROOT}/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Resources/GooglePlacePicker.bundle",
+				"${PODS_ROOT}/GooglePlaces/Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlacePicker.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GooglePlaces.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum Victus/Pods-Donum Victus-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCC65C41F6A45896F2FE48BD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Donum VictusUITests/Pods-Donum VictusUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49CE29191E2AD02A00CB3A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				492688231FFC8FA6001ADBA7 /* DonationLocSetView.swift in Sources */,
+				493AC1CA1E2B10BB00718EF6 /* DonateScreen.swift in Sources */,
+				49AA3DF71E2B3A9D008AC387 /* DonationInformationScreen.swift in Sources */,
+				495A9B561F25A8040019A1C5 /* LaunchScreen.swift in Sources */,
+				49CE29211E2AD02A00CB3A69 /* AppDelegate.swift in Sources */,
+				49F683DC20BFB6EB0055C2F9 /* ShelterRegView.swift in Sources */,
+				4926216B1E2ADDB7004BCD07 /* UniversalParameths.swift in Sources */,
+				495890B420426336003415EE /* DonPickViewer.swift in Sources */,
+				493AC1C31E2AEF1E00718EF6 /* MainScreen.swift in Sources */,
+				493AC1C81E2B10AC00718EF6 /* TransportScreen.swift in Sources */,
+				495890B220426322003415EE /* ShelterRegisScreen.swift in Sources */,
+				492621691E2ADA58004BCD07 /* CreateAccountScreen.swift in Sources */,
+				493AC1C61E2B0AB500718EF6 /* SettingsScreen.swift in Sources */,
+				492621671E2AD9B0004BCD07 /* LoginScreen.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE292D1E2AD02A00CB3A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE29361E2AD02A00CB3A69 /* Donum_VictusTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49CE29381E2AD02A00CB3A69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49CE29411E2AD02A00CB3A69 /* Donum_VictusUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49CE29331E2AD02A00CB3A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CE291C1E2AD02A00CB3A69 /* Donum Victus */;
+			targetProxy = 49CE29321E2AD02A00CB3A69 /* PBXContainerItemProxy */;
+		};
+		49CE293E1E2AD02A00CB3A69 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49CE291C1E2AD02A00CB3A69 /* Donum Victus */;
+			targetProxy = 49CE293D1E2AD02A00CB3A69 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49CE29241E2AD02A00CB3A69 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49CE29251E2AD02A00CB3A69 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49CE29431E2AD02A00CB3A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49CE29441E2AD02A00CB3A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49CE29461E2AD02A00CB3A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24FD49F7F9E1D05E9A584330 /* Pods-Donum Victus.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Donum Victus/Donum Victus.entitlements";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum Victus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-Victus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		49CE29471E2AD02A00CB3A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 412693BD70031F40E6E34160 /* Pods-Donum Victus.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Donum Victus/Donum Victus.entitlements";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum Victus/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-Victus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		49CE29491E2AD02A00CB3A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80F48D0E56C9989E0BD3A68B /* Pods-Donum VictusTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum VictusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-VictusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donum Victus.app/Donum Victus";
+			};
+			name = Debug;
+		};
+		49CE294A1E2AD02A00CB3A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 124A0FC6765CE1732985F3C6 /* Pods-Donum VictusTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum VictusTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-VictusTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Donum Victus.app/Donum Victus";
+			};
+			name = Release;
+		};
+		49CE294C1E2AD02A00CB3A69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C8D977799A81E164DC24CB0 /* Pods-Donum VictusUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum VictusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-VictusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Donum Victus";
+			};
+			name = Debug;
+		};
+		49CE294D1E2AD02A00CB3A69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3ADB76DFC44EED750AFBFCCF /* Pods-Donum VictusUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = CC9N3SP5VS;
+				INFOPLIST_FILE = "Donum VictusUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.DonumVictus.Donum-VictusUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "Donum Victus";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49CE29181E2AD02A00CB3A69 /* Build configuration list for PBXProject "Donum Victus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE29431E2AD02A00CB3A69 /* Debug */,
+				49CE29441E2AD02A00CB3A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE29451E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum Victus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE29461E2AD02A00CB3A69 /* Debug */,
+				49CE29471E2AD02A00CB3A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE29481E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum VictusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE29491E2AD02A00CB3A69 /* Debug */,
+				49CE294A1E2AD02A00CB3A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49CE294B1E2AD02A00CB3A69 /* Build configuration list for PBXNativeTarget "Donum VictusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49CE294C1E2AD02A00CB3A69 /* Debug */,
+				49CE294D1E2AD02A00CB3A69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49CE29151E2AD02A00CB3A69 /* Project object */;
+}
